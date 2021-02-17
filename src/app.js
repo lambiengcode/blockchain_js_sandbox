@@ -13,7 +13,7 @@ while (1) {
   lambiCoin.minePendingTransactions("lambi-address");
 
   console.log(
-    "Balance of lambi is",
+    "My coin is: ",
     lambiCoin.getBalanceOfAddress("lambi-address")
   );
 }

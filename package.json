@@ -10,10 +10,10 @@
   "name": "blockchain_js",
   "version": "1.0.0",
   "main": "index.js",
-  "start" : "src/app.js",
+  "start": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "nodemon src/app.js"
+    "start": "nodemon src/app.js"
   },
   "repository": {
     "type": "git",
