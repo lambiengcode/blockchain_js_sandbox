@@ -4,7 +4,7 @@ const Transaction = require('./transaction');
 class Blockchain {
   constructor() {
     this.chain = [this.createGenesisBlock()];
-    this.difficulty = 4;
+    this.difficulty = 3;
     this.pendingTransactions = [];
     this.miningReward = this.calculateReward();
   }
